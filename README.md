@@ -1,8 +1,6 @@
 Angular + OCLazyLoad + WebPack example
 ===================================
 
-This is a fork of [NG6-starter](https://github.com/AngularClass/NG6-starter) repository.
-
 The purpose of this repository is to show a way of lazy loading Angular modules using OCLazyLoad + WebPack.
 
 The application has only 2 states. The first one (called `non-lazy`)  is loaded in the main bundle. The second one (`lazy`) is bundled in a separate file and is loaded on-demand when the user accesses to it.
